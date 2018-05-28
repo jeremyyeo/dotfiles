@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vimwiki/vimwiki'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -38,7 +39,7 @@ set cursorline
 set wildmenu
 let g:netrw_liststyle=3
 set list
-set listchars=nbsp:¬,tab:>-,extends:»,precedes:«,trail:☠,
+set listchars=nbsp:¬,tab:>-,extends:»,precedes:«,trail:·,
 set tabstop=4 shiftwidth=4 expandtab
 set noshowmode
 set t_Co=256
@@ -64,7 +65,7 @@ hi CursorLineNr ctermfg=red
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+nnoremap <C-H> <C-W><C-H
 
 " Make backspace work like other apps
 set backspace=2
