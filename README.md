@@ -7,7 +7,7 @@ Contains config files for:
 
 After cloning, move config files to user dir and source tmux config file:
 
-    mv dotfiles/.vimrc ~ && tmux source ~/.tmux.conf
+    mv dotfiles/.vimrc ~ && mv dotfiles/.tmux.conf ~ && tmux source ~/.tmux.conf
 
 Then install the Vundle Vim plugin manager:
 
