@@ -44,7 +44,7 @@ set tabstop=4 shiftwidth=4 expandtab
 set noshowmode
 set t_Co=256
 syntax on
-colorscheme spacegray
+" colorscheme spacegray
 set background=dark
 
 " Some aireline config stuff.
@@ -70,3 +70,6 @@ nnoremap <C-H> <C-W><C-H
 " Make backspace work like other apps
 set backspace=2
 
+" Increase memory for vimdiff
+" https://vi.stackexchange.com/questions/31310/search-throws-e363-pattern-uses-more-memory-than-maxmempattern
+set maxmempattern=2000000
